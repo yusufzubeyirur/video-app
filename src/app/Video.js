@@ -11,6 +11,7 @@ const Video = ({ videoUrl }) => {
             height="400"
             controls
             className="rounded-2xl shadow-2xl border-2 border-blue-400 hover:border-blue-600 transition-all duration-300"
+            autoPlay
           >
             <source src={videoUrl} type="video/mp4" />
             Tarayıcınız bu videoyu desteklemiyor.
