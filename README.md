@@ -1,3 +1,21 @@
+PROJECT 6:VİDEO PLAYER
+------YAPILACAK--------
+React, HTML video elementiyle çalışmak ve farklı videolar arasında geçiş yapmak için de kullanılabilir.
+
+Nasıl oluşturacaksınız?
+
+Projemizde, kullanıcıların bir radio input kullanarak birkaç farklı video arasında geçiş yapmalarına izin vereceğiz.
+
+Sadece React formlardaki radio input’larıyla nasıl çalışılacağını değil, aynı zamanda prop’ları iki bileşenimize Menu,Video nasıl aktaracağımızı da çalışacağız.
+
+Özellikle alt bileşenden üst bileşenlerdeki state güncelleştirmek için fonksiyonların nasıl aktarılacağını hatırlayacağız. Bu modele lifting state denir ve React'te bilinmesi gereken önemli bir kalıptır.
+
+Çalışacağınız React konseptleri
+
+• React'teki radio input
+• Fonksiyonları prop ile iletme
+• React'te state’i yukarı kaldırma/lifting
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
