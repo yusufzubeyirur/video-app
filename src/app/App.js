@@ -35,8 +35,8 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-200">
-      <h1 className="text-4xl font-bold mb-6 text-gray-800 text-center">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-black text-white">
+      <h1 className="text-4xl font-bold mb-6 text-white text-center">
         Project 6 Video Player
       </h1>
       <Menu
@@ -47,7 +47,7 @@ const App = () => {
       {videoSelect ? (
         <Video videoUrl={videoSelect} />
       ) : (
-        <p className="mt-4 text-gray-500 text-xl">Lütfen bir video seçin.</p>
+        <p className="mt-4 text-gray-400 text-xl">Lütfen bir video seçin.</p>
       )}
     </div>
   );
